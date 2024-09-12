@@ -43,6 +43,57 @@
   margin: 20px;
   
 }
+.App h1{
+  color: rgb(73, 1, 16);
+}
+
+.labelStyle{
+  color: rgb(4, 82, 56);
+  font-weight: bold;
+  width: 500px;
+}
+.labelStyle.amtstyle{
+  margin-left: 35px;
+}
+
+.labeldiv{  
+  width: 500px;
+}
+.inputStyle{
+
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white; 
+  /* background-position: 10px 10px;  */
+  background-repeat: no-repeat;
+  padding: 10px 15px 10px 35px;
+}
+.addBtn{
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
 
 form {
   margin-bottom: 20px;
@@ -65,4 +116,8 @@ th, td {
 
 th {
   background-color: #f2f2f2;
+}
+
+.formAlign h2 {
+  color: chocolate;
 }
