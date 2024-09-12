@@ -1,3 +1,8 @@
+body{
+  background-image: url("./images/nature.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .App {
   text-align: center;
 }
@@ -41,14 +46,14 @@
 .App {
   font-family: Arial, sans-serif;
   margin: 20px;
-  
+ 
 }
 .App h1{
-  color: rgb(73, 1, 16);
+  color: rgb(255, 255, 255);
 }
 
 .labelStyle{
-  color: rgb(4, 82, 56);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   width: 500px;
 }
@@ -115,7 +120,7 @@ th, td {
 }
 
 th {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
 }
 
 .formAlign h2 {
