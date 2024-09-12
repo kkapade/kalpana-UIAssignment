@@ -22,30 +22,33 @@ function TransactionForm({ addTransaction }) {
         <div className='formAlign'>
         <h2 >Add Transaction</h2>
       <div>
-        <label>Customer ID:</label>
+        <label className='labelStyle'>Customer ID:</label>
         <input
+        className='inputStyle'
           type="text"
           value={customerId}
           onChange={(e) => setCustomerId(e.target.value)}
         />
       </div>
-      <div>
-        <label>Amount:</label>
+      <div >
+        <label className='labelStyle amtstyle'>Amount:</label>
         <input
+        className='inputStyle'
           type="number"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
         />
       </div>
-      <div>
-        <label>Date:</label>
+      <div>       
+          <label className='labelStyle' >Date:</label>        
         <input
+        className='inputStyle'
           type="date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
         />
       </div>
-      <button type="submit">Add Transaction</button>
+      <button type="submit" className='addBtn'>Add Transaction</button>
         </div>
       
     </form>
